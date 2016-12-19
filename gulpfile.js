@@ -1,15 +1,15 @@
 
 var gulp = require('gulp'),
     
-	/*var concat = require('gulp-concat');*/
+    /*var concat = require('gulp-concat');*/
 
-	cleanCSS = require('gulp-clean-css'),
+    cleanCSS = require('gulp-clean-css'),
     autoprefixer = require('gulp-autoprefixer'),
-	sass = require('gulp-sass'),
+    sass = require('gulp-sass'),
 
-	uglify = require('gulp-uglify'),
+    uglify = require('gulp-uglify'),
 
-	imagemin = require('gulp-imagemin'),
+    imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     
     rigger = require('gulp-rigger'),
